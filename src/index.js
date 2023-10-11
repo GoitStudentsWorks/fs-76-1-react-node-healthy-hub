@@ -12,7 +12,7 @@ root.render(
   // <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/fs-76-1-react-node-healthy-hub">
+        <BrowserRouter basename="/fs-76-1-react-node-healthy-hub/">
           <App/>
         </BrowserRouter>
       </PersistGate>
